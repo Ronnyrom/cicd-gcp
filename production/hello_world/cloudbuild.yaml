@@ -1,0 +1,3 @@
+teps:
+          - name: "gcr.io/cloud-builders/gcloud"
+                args: ["app", "deploy", "--version", "first", "production/hello_world/app.yaml"]
